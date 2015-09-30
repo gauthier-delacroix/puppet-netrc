@@ -1,5 +1,5 @@
 <% machine_user_password_triples.each do |triple|
   triple.each_with_index do |triple_part,index|
-    -%><%= prefixes[index] %><%= triple_part %>
+    -%><%= prefixes[index] %> <%= triple_part %>
   <% end -%>
 <% end -%>
